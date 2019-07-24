@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WordPress Login</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <style media="screen">
+    body{
+      background: #f1f1f1;
+      font-size: 14px;
+      vertical-align: middle;
+      font-weight: 400;
+      color: #444;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    }
+    a {
+      text-decoration: none;
+      color: #555d66;
+      outline: 0;
+      transition-property: border,background,color;
+      transition-duration: .05s;
+      transition-timing-function: ease-in-out;
+      font-size: 13px;
+    }
+    .form-login{
+      padding: 0 9px ;
+    }
+    .remember{
+      font-size: 12px;
+      vertical-align: middle;
+      font-weight: 400;
+      color: #444;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    }
+
+    .login-btn{
+      background: #0085ba;
+      border-color: #0073aa #006799 #006799;
+      box-shadow: 0 1px 0 #006799;
+      color: #fff;
+      text-decoration: none;
+      height: 30px;
+      line-height: 28px;
+      padding: 0 12px 2px;
+      cursor: pointer;
+      border-width: 1px;
+      border-style: solid;
+      -webkit-appearance: none;
+      border-radius: 3px;
+      white-space: nowrap;
+      box-sizing: border-box;
+      text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    }
+
+    .add-payment-slot-input{
+      border:1.4px solid #dddfe2;
+      font-size: 15px;
+      background-color:#fff;
+      height: 40px;
+      width: 100%;
+      padding-left: 3%;
+    } 
+
+input[type=checkbox] {
+      height: 16px;
+      margin: -4px 4px 0 0;
+      vertical-align: middle;
+      width:16px;
+   }
+
+  </style>
+  </head>
+  <body>
+    <div class="col-12" style=" width:100%">
+      <div class="">
+        <div class="col-lg-3 col-10" style="margin:auto;text-align:center; padding: 6.6% 0 0;margin-bottom:-1.3rem;">
+          <span style="font-size:83px;color:#0073aa;"><i class="fa fa-wordpress" aria-hidden="true"></i></span>
+        </div>
+        <div class="col-lg-3 col-10" style="margin:auto;    box-shadow: 0 1px 3px rgba(0,0,0,.13); background-color:#fff;">
+          <form class="form-login" action="index.html" method="post">
+            <div class="mt-4" style="padding-top:1.6rem;">
+              <div class="" style="margin-bottom:-2%;">
+                <label class="form-label" for="" style="">Username or Email Address</label>
+              </div>
+              <div class="">
+                <input class="text-color-black point add-payment-slot-input" style="background-color:#fbfbfb !important;" type="text" name="" placeholder="">
+              </div>
+            </div>
+            <div class="mt-3">
+              <div class="">
+                <label class="form-label " for="" style="margin-bottom:-2%;" >Password</label>
+              </div>
+              <div class="">
+                <input class="text-color-black point add-payment-slot-input" style="background-color:#fbfbfb !important;" type="text" name="" placeholder="">
+              </div>
+            </div>
+            <div class="mt-3" style="width:100%; padding-bottom:3.8rem;">
+              <input type="checkbox" name="" value="">
+              <span class="remember">Remember Me</span>
+              <span style="float:right;"><input class="login-btn" type="button" name="" value="Log In"></span>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-3 col-10 mt-4" style="position:relative;margin:auto; ">
+          <div class="" style="margin-left:9px;">
+            <div class="">
+              <a href="#">Lost your password?</a>
+            </div>
+            <div class="mt-3">
+              <a href="#">	&#8592; Back to Wishup Blog</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
